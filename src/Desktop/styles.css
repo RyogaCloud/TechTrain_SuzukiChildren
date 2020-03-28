@@ -1,0 +1,147 @@
+body {
+    background-color: #111;
+  }
+  .white {
+    display: inline-block;
+    color: #fff;
+  }
+  .display {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    width: 60px;
+    height: 100px;
+    border: solid 4px #111;
+    background-color: #111;
+    overflow: hidden;
+  }
+  .display::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 28px;
+    height: 28px;
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    -moz-transform: translate(-50%, -50%) rotate(45deg);
+    -ms-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .display::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 12px;
+    border-top: solid 30px #111;
+    border-bottom: solid 30px #111;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .colon::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 13px;
+    height: 24px;
+    border-top: solid 15px #ff0;
+    border-bottom: solid 15px #ff0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+  .d0::before {
+    background-color: #333;
+    box-shadow: -30px -30px #ff0,
+                  0px -30px #ff0,
+                -30px   0px #ff0,
+                  0px  30px #ff0,
+                 30px   0px #ff0,
+                 30px  30px #ff0;
+  }
+  .d1::before {
+    background-color: #333;
+    box-shadow: -30px -30px #333,
+                  0px -30px #ff0,
+                -30px   0px #333,
+                  0px  30px #333,
+                 30px   0px #ff0,
+                 30px  30px #333;
+  }
+  .d2::before {
+    background-color: #ff0;
+    box-shadow: -30px -30px #ff0,
+                  0px -30px #ff0,
+                -30px   0px #333,
+                  0px  30px #ff0,
+                 30px   0px #333,
+                 30px  30px #ff0;
+  }
+  .d3::before {
+    background-color: #ff0;
+    box-shadow: -30px -30px #ff0,
+                  0px -30px #ff0,
+                -30px   0px #333,
+                  0px  30px #333,
+                 30px   0px #ff0,
+                 30px  30px #ff0;
+  }
+  .d4::before {
+    background-color: #ff0;
+    box-shadow: -30px -30px #333,
+                  0px -30px #ff0,
+                -30px   0px #ff0,
+                  0px  30px #333,
+                 30px   0px #ff0,
+                 30px  30px #333;
+  }
+  .d5::before {
+    background-color: #ff0;
+    box-shadow: -30px -30px #ff0,
+                  0px -30px #333,
+                -30px   0px #ff0,
+                  0px  30px #333,
+                 30px   0px #ff0,
+                 30px  30px #ff0;
+  }
+  .d6::before {
+    background-color: #ff0;
+    box-shadow: -30px -30px #ff0,
+                  0px -30px #333,
+                -30px   0px #ff0,
+                  0px  30px #ff0,
+                 30px   0px #ff0,
+                 30px  30px #ff0;
+  }
+  .d7::before {
+    background-color: #333;
+    box-shadow: -30px -30px #ff0,
+                  0px -30px #ff0,
+                -30px   0px #ff0,
+                  0px  30px #333,
+                 30px   0px #ff0,
+                 30px  30px #333;
+  }
+  .d8::before {
+    background-color: #ff0;
+    box-shadow: -30px -30px #ff0,
+                  0px -30px #ff0,
+                -30px   0px #ff0,
+                  0px  30px #ff0,
+                 30px   0px #ff0,
+                 30px  30px #ff0;
+  }
+  .d9::before {
+    background-color: #ff0;
+    box-shadow: -30px -30px #ff0,
+                  0px -30px #ff0,
+                -30px   0px #ff0,
+                  0px  30px #333,
+                 30px   0px #ff0,
+                 30px  30px #ff0;
+  }

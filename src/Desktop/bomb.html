@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bomb Window</title>
+  </head>
+  <body>
+    <h1><p class="white" id="state">NOT</p></h1>
+    <h2><div class="white" id="countLine">0</div><div class="white" id="line"> / 0</div></h2>
+    <h2 class="white">Time Limit</h2>
+    <div class="display d0" id="m10"></div>
+    <div class="display d0" id="m01"></div>
+    <div class = "display colon"></div>
+    <div class="display d0" id="s10"></div>
+    <div class="display d0" id="s01"></div>
+    <div class = "display colon"></div>
+    <div class="display d0" id="c10"></div>
+    <div class="display d0" id="c01"></div>
+    <p></p>
+    <button id="stop">STOP</button>
+    
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./bomb.js"></script>
+  </body>
+</html>
